@@ -7,6 +7,7 @@
     text-decoration: none;
     list-style: none;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -70,6 +71,7 @@ nav ul a:hover {
     justify-content: center;
     font-size: 13px;
     cursor: pointer;
+    
 }
 
 button {
@@ -127,19 +129,13 @@ button:hover {
 
 }
 
-.cards {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .tela2 {
+    display: flex;
+    flex-direction: row;
     height: 100vh;
     width: 100vw;
-
+    justify-content: space-around;
+    align-items: center;
 }
 
 
@@ -160,7 +156,7 @@ button:hover {
 
 .front,
 .back {
-    background-color: rgba(46, 204, 113, 0.1);
+    background-color: rgba(46, 204, 113, 1);
     position: absolute;
     width: 100%;
     height: 100%;
