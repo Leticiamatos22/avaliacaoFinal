@@ -137,3 +137,13 @@ button:hover {
 .cards .card:hover {
   transform: scale(1.1, 1.1);
 }
+
+.tela2 {
+  width: 100%;
+  height: 100vh;
+}
+
+.projetosHtml{
+  width: 100vw;
+  height: 100vh;
+}
