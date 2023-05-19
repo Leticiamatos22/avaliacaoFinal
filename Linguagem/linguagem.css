@@ -12,7 +12,6 @@
 
 body {
   overflow: hidden;
-
 }
 
 .background {
@@ -35,6 +34,14 @@ header {
   padding-top: 20px;
   z-index: 999;
   color: #ffffff;
+
+}
+
+nav {
+  justify-content: space-around;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
 
 }
 
@@ -146,4 +153,41 @@ button:hover {
 .projetosHtml{
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+}
+
+
+.texto {
+  color: #2ecc71;
+}
+
+#projetoss{
+  height: 350px;
+  width: 450px;
+}
+
+.scroll-snap-cartao {
+  height: 350px;
+  width: 450px;
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.scroll-snap-cartao .slide {
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-snap-cartao .slide p {
+  font-size: 1em;
+  color: white;
+  font-weight: 700;
 }
