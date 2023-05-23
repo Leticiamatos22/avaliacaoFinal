@@ -7,7 +7,7 @@
   text-decoration: none;
   list-style: none;
   font-family: "Poppins", sans-serif;
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -98,7 +98,7 @@ button:hover {
 }
 
 .blue {
-  background-color: #2ecc71;
+  background-color: rgb(46, 204, 113);
 }
 
 .green {
@@ -143,7 +143,7 @@ button:hover {
   height: 100vh;
 }
 
-.projetosHtml{
+.projetosHtml {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -155,9 +155,11 @@ button:hover {
 
 .texto {
   color: #2ecc71;
+  justify-content: space-around;
+  font-size: smaller;
 }
 
-#projetoss{
+#projetoss {
   height: 350px;
   width: 450px;
 }
@@ -168,6 +170,8 @@ button:hover {
   scroll-snap-type: y mandatory;
   overflow: auto;
   border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(46, 204, 113, 0.5);
+  scrollbar-color: rgb(46, 204, 113) rgba(46, 204, 113, 0.5);
 }
 
 .scroll-snap-cartao .slide {
@@ -191,7 +195,21 @@ button:hover {
   height: 100vh;
 }
 
-.projetosJavaScript{
+.projetosJavaScript {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+}
+
+.tela4 {
+  width: 100%;
+  height: 100vh;
+}
+
+.projetosJava {
   width: 100vw;
   height: 100vh;
   display: flex;
