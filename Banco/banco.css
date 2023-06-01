@@ -167,33 +167,9 @@ button:hover {
   font-size: smaller;
 }
 
-#projetoss {
-  height: 250px;
-  width: 350px;
-  box-shadow: 5px 5px 10px rgba(46, 204, 113, 0.5);
-}
 
-.scroll-snap-cartao {
-  height: 350px;
-  width: 450px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(46, 204, 113, 0.5);
-}
 
-.scroll-snap-cartao .slide {
-  width: 100%;
-  height: 100%;
-  scroll-snap-align: start;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.scroll-snap-cartao .slide p {
-  font-size: 1em;
-  color: white;
-  font-weight: 700;
-}
 
 .tela3 {
   width: 100%;
