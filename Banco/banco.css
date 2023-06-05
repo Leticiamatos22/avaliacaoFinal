@@ -82,6 +82,10 @@ button:hover {
   height: 100vh;
 }
 
+#projetoss {
+  height: 350px;
+  width: 450px;
+}
 
 .geral{
   display: flex;
@@ -167,11 +171,42 @@ button:hover {
   font-size: smaller;
 }
 
-
-
-
-
 .tela3 {
   width: 100%;
   height: 100vh;
+}
+
+.tela4 {
+  width: 100%;
+  height: 100vh;
+}
+
+#projetoss {
+  height: 350px;
+  width: 450px;
+}
+
+.scroll-snap-cartao {
+  height: 350px;
+  width: 450px;
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(46, 204, 113, 0.5);
+  scrollbar-color: rgb(46, 204, 113) rgba(46, 204, 113, 0.5);
+}
+
+.scroll-snap-cartao .slide {
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-snap-cartao .slide p {
+  font-size: 1em;
+  color: white;
+  font-weight: 700;
 }
