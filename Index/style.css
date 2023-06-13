@@ -395,27 +395,27 @@ button:hover {
   
   #character {
     position: absolute;
-    top: 50%;
+    top: 60%;
     right: 0;
     transform: translate(100%, -50%);
     animation: slideIn 1s forwards;
   }
   
   #character img {
-    width: 170px;
+    width: 150px;
     height: 150px;
   }
   
   #balloon {
     position: absolute;
     width: 100px;
-    top: 1%;
-    right: 120%;
+    top: -7%;
+    right: 130%;
     transform: translate(100%, -50%);
     background-color: #fff;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
-    box-shadow: 2 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 4 2px 5px rgba(0, 0, 0, 0.3);
     animation: fadeIn 1s 1s forwards;
   }
   
