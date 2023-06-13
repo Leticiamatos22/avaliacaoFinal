@@ -210,3 +210,18 @@ button:hover {
   color: white;
   font-weight: 700;
 }
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+#typing-text {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(40) 1s forwards;
+}

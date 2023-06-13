@@ -160,17 +160,17 @@ button:hover {
 }
 
 #projetoss {
-  height: 350px;
-  width: 450px;
+  height: 300px;
+  width: 400px;
 }
 
 .scroll-snap-cartao {
-  height: 350px;
-  width: 450px;
+  height: 300px;
+  width: 400px;
   scroll-snap-type: y mandatory;
   overflow: auto;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(46, 204, 113, 0.5);
+  box-shadow: 10px 10px 10px rgba(46, 204, 113, 0.5);
   scrollbar-color: rgb(46, 204, 113) rgba(46, 204, 113, 0.5);
 }
 
@@ -217,3 +217,21 @@ button:hover {
   align-items: center;
   color: #ffffff;
 }
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+#typing-text {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(40) 1s forwards;
+}
+
+
+

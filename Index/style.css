@@ -8,6 +8,7 @@
     list-style: none;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
@@ -352,3 +353,73 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  
+  #character {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(100%, -50%);
+    animation: slideIn 1s forwards;
+  }
+  
+  #character img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #balloon {
+    position: absolute;
+    width: 80px;
+    top: 20%;
+    right: 120%;
+    transform: translate(100%, -50%);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2 2px 5px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s 1s forwards;
+  }
+  
+  #balloon p {
+    margin: 0;
+    width: 100px;
+  }
