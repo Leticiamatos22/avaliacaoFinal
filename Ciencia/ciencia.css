@@ -160,13 +160,13 @@ button:hover {
 }
 
 #projetoss {
-  height: 350px;
-  width: 450px;
+  height: 300px;
+  width: 400px;
 }
 
 .scroll-snap-cartao {
-  height: 350px;
-  width: 450px;
+  height: 300px;
+  width: 400px;
   scroll-snap-type: y mandatory;
   overflow: auto;
   border-radius: 10px;
