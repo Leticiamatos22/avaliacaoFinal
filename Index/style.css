@@ -408,9 +408,9 @@ button:hover {
   
   #balloon {
     position: absolute;
-    width: 100px;
-    top: -7%;
-    right: 130%;
+    width: 130px;
+    top: -10%;
+    right: 150%;
     transform: translate(100%, -50%);
     background-color: #fff;
     padding: 15px;
@@ -423,3 +423,7 @@ button:hover {
     margin: 0;
     width: 100px;
   }
+
+ 
+  
+  
