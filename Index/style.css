@@ -88,8 +88,8 @@ button {
 
 button:hover {
     background: #2ecc71;
-    color: white;
     transition: 0.5s;
+    color: white;
 }
 
 .tela1 {
